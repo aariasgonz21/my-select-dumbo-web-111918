@@ -5,5 +5,6 @@ def my_select(collection)
     if yield(collection[i])
       selection << collection[i]
     end
+    i += 1
   end
 end
